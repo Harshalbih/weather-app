@@ -56,3 +56,29 @@ window.onload = function () {
     checkWeather(searchinput.value);
   });
 };
+
+/* if (data.weather[0].main == "Clouds") {
+    weathericon.src = "images/clouds.png";
+  } 
+  else if (data.weather[0].main == "Clear") {
+    weathericon.src = "images/clear.png";
+  } 
+  else if (data.weather[0].main == "Drizzle") {
+    weathericon.src = "images/drizzle.png";
+  } 
+  else if (data.weather[0].main == "Mist") {
+    weathericon.src = "images/mist.png";
+  } 
+  else if (data.weather[0].main == "rain") {
+    weathericon.src = "images/rain.png";
+  } 
+  else if (data.weather[0].main == "Rain") {
+    weathericon.src = "images/rain.png";
+  }
+  searchbtn.addEventListener("click", () => {
+    checkWeather(searchinput.value);
+  });
+  searchbtn.addEventListener("keypress", () => {
+    checkWeather(searchinput.value);
+  });
+  */
